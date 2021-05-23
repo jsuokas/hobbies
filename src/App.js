@@ -7,6 +7,11 @@ const gear = [{
   weight: 3.29
 },
 {
+  name: 'Fjällräven Kajka 65L Raincover',
+  type: 'rain',
+  weight: 0.152
+},
+{
   name: 'Hilleberg Allak 2',
   type: 'sleep',
   weight: 3.3
@@ -17,17 +22,17 @@ const gear = [{
   weight: 0.8
 },
 {
-  name: 'Fjällräven Kajka 65L Raincover',
-  type: 'rain',
-  weight: 0.152
-},
-{
   name: 'Naturehike Mongar 2P',
   type: 'sleep',
   weight: 1.911
 },
 {
   name: 'Thermarest Z-Lite Sleeping pad',
+  type: 'sleep',
+  weight: 0.383
+},
+{
+  name: 'Sea to Summit Etherlight XT Insulated Large Sleeping pad',
   type: 'sleep',
   weight: 0.657
 },
