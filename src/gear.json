@@ -11,37 +11,37 @@
     },
     {
        "name":"Hilleberg Allak 2",
-       "type":"sleep",
+       "type":"overnight",
        "weight":3.3
     },
     {
        "name":"Nemo Hornet 1P",
-       "type":"sleep",
+       "type":"overnight",
        "weight":0.8
     },
     {
        "name":"Naturehike Mongar 2P",
-       "type":"sleep",
+       "type":"overnight",
        "weight":1.911
     },
     {
        "name":"Thermarest Z-Lite Sleeping pad",
-       "type":"sleep",
+       "type":"overnight",
        "weight":0.383
     },
     {
        "name":"Sea to Summit Etherlight XT Insulated Large Sleeping pad",
-       "type":"sleep",
+       "type":"overnight",
        "weight":0.657
     },
     {
        "name":"Sea to Summit Thermolite Reactor Extreme",
-       "type":"sleep",
+       "type":"overnight",
        "weight":0.39
     },
     {
        "name":"Sea to summit Spark SpIV sleeping bag",
-       "type":"sleep_cold_weather",
+       "type":"overnight_cold_weather",
        "weight":0.921
     },
     {
@@ -111,7 +111,7 @@
     },
     {
        "name":"Cumulus Quilt 250",
-       "type":"sleep",
+       "type":"overnight",
        "weight":0.511
     },
     {
@@ -151,22 +151,22 @@
     },
     {
        "name":"Pillow case",
-       "type":"sleep",
+       "type":"overnight",
        "weight":0.079
     },
     {
        "name":"Merino base layer",
-       "type":"sleep",
+       "type":"overnight",
        "weight":0.416
     },
     {
        "name":"Peak Performance down jacket",
-       "type":"extra_clothing_cold_weather",
+       "type":"overnight_cold_weather",
        "weight":0.6
     },
     {
        "name":"Woolly socks",
-       "type":"sleep",
+       "type":"overnight",
        "weight":0.101
     },
     {
@@ -201,12 +201,12 @@
     },
     {
        "name":"2 pairs of boxers",
-       "type":"extra_clothing",
+       "type":"overnight",
        "weight":0.142
     },
     {
        "name":"2 pairs of camp socks",
-       "type":"extra_clothing",
+       "type":"overnight",
        "weight":0.062
     },
     {
@@ -216,17 +216,17 @@
     },
     {
        "name":"Sherpa T-shirt",
-       "type":"extra_clothing",
+       "type":"overnight",
        "weight":0.181
     },
     {
        "name":"Icebreaker Merino Wool Shirt",
-       "type":"extra_clothing_cold_weather",
+       "type":"overnight_cold_weather",
        "weight":0.409
     },
     {
        "name":"Toothbrush and paste",
-       "type":"hygienie",
+       "type":"overnight",
        "weight":0.100
     },
     {

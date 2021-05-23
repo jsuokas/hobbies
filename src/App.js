@@ -7,6 +7,22 @@ const consumablesWeight = {
   gasBottleMedium: 0.230
 }
 
+const typeToDescription = {
+  rucksack: 'I need to carry my stuff',
+  rain: 'It is going to rain',
+  overnight: 'Overnighter',
+  overnight_cold_weather: 'Overnighter in cold weather',
+  swim: 'Swimming!',
+  cooking: 'I am preparing meals',
+  hydration: 'I need to bring/carry water',
+  dark: 'I need a light in the darkness',
+  comfort: 'I want some comfort in my camp',
+  safety: 'The destination is not familiar to me',
+  devices: 'I need power to my devices',
+  necessities: 'Phone, keys and other necessities',
+  toilet: 'There is change of bathroom break'
+}
+
 function App() {
   const [gearTypeFilters, setGearTypeFilters] = useState(gear.map(it => it.type))
   const [gearItemFilters, setGearItemFilters] = useState([])
@@ -40,7 +56,7 @@ function App() {
               name={gearType}
               checked={isSelected}
               onChange={onChange} />
-              <label htmlFor={id}>{gearType}</label>
+              <label htmlFor={id}>{typeToDescription[gearType] ? typeToDescription[gearType] : gearType}</label>
             </div>
           )
         })}
