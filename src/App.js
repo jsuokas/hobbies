@@ -2,14 +2,22 @@ import React, { useState } from 'react';
 import gear from './gear.json'
 import './App.css';
 
+const consumablesWeight = {
+  gasBottleSmall: 0.1,
+  gasBottleMedium: 0.230
+}
+
 function App() {
   const [gearTypeFilters, setGearTypeFilters] = useState(gear.map(it => it.type))
   const [gearItemFilters, setGearItemFilters] = useState([])
+  const [consumablesWater, setConsumablesWater] = useState(0)
+  const [consumablesGasSmall, setConsumablesGasSmall] = useState(0)
+  const [consumablesGasMedium, setConsumablesGasMedium] = useState(0)
   const gearItems = gear.filter(it => gearTypeFilters.includes(it.type))
   const totalWeight = gearItems
     .filter(it => gearTypeFilters.includes(it.type))
     .filter(it => gearItemFilters.filter(item => item.name === it.name).length !== 0)
-    .reduce((previous, current) => previous + current.weight, 0)
+    .reduce((previous, current) => previous + current.weight, 0 + consumablesWater + (consumablesGasSmall * consumablesWeight.gasBottleSmall) + (consumablesGasMedium * consumablesWeight.gasBottleMedium))
 
   return (
     <div className="App">
@@ -60,6 +68,26 @@ function App() {
         )
       })}
       </div>
+
+      <div className="title"><h4>Consumables</h4></div>
+      <div className="content">
+        <div>
+          <input type="button" value="+" onClick={() => setConsumablesWater(consumablesWater + 1)} />
+          <input type="button" value="-" onClick={() => setConsumablesWater(consumablesWater > 0 ? consumablesWater - 1 : 0)} />
+          <span className="consumables-label">{consumablesWater} liters of water</span>
+        </div>
+        <div>
+          <input type="button" value="+" onClick={() => setConsumablesGasSmall(consumablesGasSmall + 1)} />
+          <input type="button" value="-" onClick={() => setConsumablesGasSmall(consumablesGasSmall > 0 ? consumablesGasSmall - 1 : 0)} />
+          <span className="consumables-label">{consumablesGasSmall} small gas bottles (100g)</span>
+        </div>
+        <div>
+          <input type="button" value="+" onClick={() => setConsumablesGasMedium(consumablesGasMedium + 1)} />
+          <input type="button" value="-" onClick={() => setConsumablesGasMedium(consumablesGasMedium > 0 ? consumablesGasMedium - 1 : 0)} />
+          <span className="consumables-label">{consumablesGasMedium} medium gas bottles (256g)</span>
+        </div>
+      </div>
+
       <div className="title"><strong>Total</strong> {totalWeight.toFixed(2)}kg</div>
     </div>
   );
