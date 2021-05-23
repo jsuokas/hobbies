@@ -288,7 +288,7 @@ function App() {
 
   return (
     <div className="App">
-      <h4>Type</h4>
+      <h4>Type of gear</h4>
       {gear
         .map(it => it.type)
         .reduce((previous, current) => previous.includes(current) ? previous : [...previous, current], [])
