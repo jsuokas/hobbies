@@ -20,22 +20,27 @@
        "weight":0.8
     },
     {
-       "name":"Naturehike ground sheet 2P tent",
+       "name":"Naturehike Mongar 2P",
        "type":"overnight",
-       "weight":0.235
+       "weight":1.911
     },
+    {
+        "name":"Naturehike ground sheet 2P tent",
+        "type":"overnight",
+        "weight":0.235
+     },
     {
         "name":"Nemo ground sheet 1P tent",
         "type":"overnight",
         "weight":0.177
-     },
+    },
     {
        "name":"Thermarest Z-Lite Sleeping pad 1/2",
        "type":"overnight",
        "weight":0.1915
     },
     {
-        "name":"Thermarest Z-Lite Sleeping pad 1/2",
+        "name":"Thermarest Z-Lite Sleeping pad 2/2",
         "type":"comfort",
         "weight":0.1915
      },
@@ -165,7 +170,7 @@
        "weight":0.6
     },
     {
-        "name":"Jack Wolfsking running jacket",
+        "name":"Jack Wolfskin running jacket",
         "type":"overnight",
         "weight":0.3
      },
