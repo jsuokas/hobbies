@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hobbies/static/css/main.55852dfd.chunk.css",
-    "main.js": "/hobbies/static/js/main.2262910a.chunk.js",
-    "main.js.map": "/hobbies/static/js/main.2262910a.chunk.js.map",
+    "main.js": "/hobbies/static/js/main.1dc1213a.chunk.js",
+    "main.js.map": "/hobbies/static/js/main.1dc1213a.chunk.js.map",
     "runtime-main.js": "/hobbies/static/js/runtime-main.c4cf867c.js",
     "runtime-main.js.map": "/hobbies/static/js/runtime-main.c4cf867c.js.map",
     "static/js/2.0d010ed8.chunk.js": "/hobbies/static/js/2.0d010ed8.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c4cf867c.js",
     "static/js/2.0d010ed8.chunk.js",
     "static/css/main.55852dfd.chunk.css",
-    "static/js/main.2262910a.chunk.js"
+    "static/js/main.1dc1213a.chunk.js"
   ]
 }
