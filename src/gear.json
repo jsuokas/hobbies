@@ -20,10 +20,15 @@
        "weight":0.8
     },
     {
-       "name":"Naturehike Mongar 2P",
+       "name":"Naturehike ground sheet 2P tent",
        "type":"overnight",
-       "weight":1.911
+       "weight":0.235
     },
+    {
+        "name":"Nemo ground sheet 1P tent",
+        "type":"overnight",
+        "weight":0.177
+     },
     {
        "name":"Thermarest Z-Lite Sleeping pad 1/2",
        "type":"overnight",
