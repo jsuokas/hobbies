@@ -25,10 +25,15 @@
        "weight":1.911
     },
     {
-       "name":"Thermarest Z-Lite Sleeping pad",
+       "name":"Thermarest Z-Lite Sleeping pad 1/2",
        "type":"overnight",
-       "weight":0.383
+       "weight":0.1915
     },
+    {
+        "name":"Thermarest Z-Lite Sleeping pad 1/2",
+        "type":"comfort",
+        "weight":0.1915
+     },
     {
        "name":"Sea to Summit Etherlight XT Insulated Large Sleeping pad",
        "type":"overnight",
@@ -130,16 +135,6 @@
        "weight":0.058
     },
     {
-       "name":"Toilet paper",
-       "type":"toilet",
-       "weight":0.100
-    },
-    {
-       "name":"Toilet savet",
-       "type":"toilet",
-       "weight":0.3
-    },
-    {
        "name":"Kuksa",
        "type":"cooking",
        "weight":0.119
@@ -152,7 +147,7 @@
     {
        "name":"Pillow case",
        "type":"overnight",
-       "weight":0.079
+       "weight":0.080
     },
     {
        "name":"Merino base layer",
@@ -165,6 +160,11 @@
        "weight":0.6
     },
     {
+        "name":"Jack Wolfsking running jacket",
+        "type":"overnight",
+        "weight":0.3
+     },
+    {
        "name":"Woolly socks",
        "type":"overnight",
        "weight":0.101
@@ -172,13 +172,23 @@
     {
        "name":"Mini towel",
        "type":"swim",
-       "weight":0.78
+       "weight":0.080
     },
+    {
+        "name":"Big towel",
+        "type":"comfort",
+        "weight":0.279
+     },
     {
        "name":"Swim pants",
        "type":"swim",
        "weight":0.03
     },
+    {
+        "name":"Laundry wire and clothespins",
+        "type":"swim",
+        "weight":0.057
+     },
     {
        "name":"Extra batteries for torch and headlamp",
        "type":"dark",
@@ -247,7 +257,7 @@
     {
        "name":"Salomon rain pants",
        "type":"rain",
-       "weight":0.4
+       "weight":0.171
     },
     {
        "name":"Haglöfs camp pants",

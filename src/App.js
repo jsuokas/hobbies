@@ -4,40 +4,46 @@ import './App.css';
 
 const consumablesWeight = {
   gasBottleSmall: 0.1,
-  gasBottleMedium: 0.230
+  gasBottleMedium: 0.230,
+  toiletPaper: 0.1,
+  wetWipes: 0.2,
+  turmatMeal: 0.120
 }
 
 const typeToDescription = {
-  rucksack: 'I need to carry my stuff',
-  rain: 'It is going to rain',
+  rucksack: 'I carry my stuff',
+  rain: 'Rainy',
   overnight: 'Overnighter',
   overnight_cold_weather: 'Overnighter in cold weather',
   swim: 'Swimming!',
-  cooking: 'I am preparing meals',
-  hydration: 'I need to bring/carry water',
-  dark: 'I need a light in the darkness',
-  comfort: 'I want some comfort in my camp',
+  cooking: 'Preparing meals',
+  hydration: 'Bring/carry water',
+  dark: 'It will be dark',
+  comfort: 'Comfort for my camp',
   safety: 'The destination is not familiar to me',
-  devices: 'I need power to my devices',
-  necessities: 'Phone, keys and other necessities',
-  toilet: 'There is change of bathroom break'
+  devices: 'I need my devices',
+  necessities: 'Phone, keys etc.',
 }
 
 function App() {
   const [gearTypeFilters, setGearTypeFilters] = useState(gear.map(it => it.type))
   const [gearItemFilters, setGearItemFilters] = useState([])
   const [consumablesWater, setConsumablesWater] = useState(0)
+  const [consumablesToiletPaper, setConsumablesToiletPaper] = useState(0)
+  const [consumablesToiletWetWipes, setConsumablesToiletWetWipes] = useState(0)
   const [consumablesGasSmall, setConsumablesGasSmall] = useState(0)
   const [consumablesGasMedium, setConsumablesGasMedium] = useState(0)
+  const [consumablesTurmatMeals, setConsumablesTurmatMeals] = useState(0)
   const gearItems = gear.filter(it => gearTypeFilters.includes(it.type))
+  const totalConsumablesWeight = consumablesWater + (consumablesGasSmall * consumablesWeight.gasBottleSmall) + (consumablesGasMedium * consumablesWeight.gasBottleMedium) + (consumablesToiletPaper * consumablesWeight.toiletPaper) + (consumablesToiletWetWipes * consumablesWeight.wetWipes) + (consumablesTurmatMeals * consumablesWeight.turmatMeal)
   const totalWeight = gearItems
     .filter(it => gearTypeFilters.includes(it.type))
     .filter(it => gearItemFilters.filter(item => item.name === it.name).length !== 0)
-    .reduce((previous, current) => previous + current.weight, 0 + consumablesWater + (consumablesGasSmall * consumablesWeight.gasBottleSmall) + (consumablesGasMedium * consumablesWeight.gasBottleMedium))
+    .reduce((previous, current) => previous + current.weight, totalConsumablesWeight)
 
   return (
     <div className="App">
-      <div className="title"><h4>What type of gear you are taking?</h4></div>
+      <div className="title"><h4>What kind of trip?</h4></div>
       <div className="content">
       {gear
         .map(it => it.type)
@@ -101,6 +107,21 @@ function App() {
           <input type="button" value="+" onClick={() => setConsumablesGasMedium(consumablesGasMedium + 1)} />
           <input type="button" value="-" onClick={() => setConsumablesGasMedium(consumablesGasMedium > 0 ? consumablesGasMedium - 1 : 0)} />
           <span className="consumables-label">{consumablesGasMedium} medium gas bottles (256g)</span>
+        </div>
+        <div>
+          <input type="button" value="+" onClick={() => setConsumablesTurmatMeals(consumablesTurmatMeals + 1)} />
+          <input type="button" value="-" onClick={() => setConsumablesTurmatMeals(consumablesTurmatMeals> 0 ? consumablesTurmatMeals - 1 : 0)} />
+          <span className="consumables-label">{consumablesTurmatMeals} packs of Turmat meals</span>
+        </div>
+        <div>
+          <input type="button" value="+" onClick={() => setConsumablesToiletPaper(consumablesToiletPaper + 1)} />
+          <input type="button" value="-" onClick={() => setConsumablesToiletPaper(consumablesToiletPaper > 0 ? consumablesToiletPaper - 1 : 0)} />
+          <span className="consumables-label">{consumablesToiletPaper} rolls of toilet paper</span>
+        </div>
+        <div>
+          <input type="button" value="+" onClick={() => setConsumablesToiletWetWipes(consumablesToiletWetWipes + 1)} />
+          <input type="button" value="-" onClick={() => setConsumablesToiletWetWipes(consumablesToiletWetWipes > 0 ? consumablesToiletWetWipes - 1 : 0)} />
+          <span className="consumables-label">{consumablesToiletWetWipes} packs of wet wipes (50pc)</span>
         </div>
       </div>
 
