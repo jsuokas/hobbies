@@ -1,207 +1,227 @@
 [
     {
        "name":"Fjällräven Kajka 65L",
-       "type":"rucksack",
+       "type":"sleep_system",
        "weight":3.29
     },
     {
        "name":"Fjällräven Kajka 65L Raincover",
-       "type":"rain",
+       "type":"rain_protection",
        "weight":0.152
     },
     {
        "name":"Hilleberg Allak 2",
-       "type":"overnight",
+       "type":"sleep_system",
        "weight":3.3
     },
     {
        "name":"Nemo Hornet 1P",
-       "type":"overnight",
+       "type":"sleep_system",
        "weight":0.8
     },
     {
        "name":"Naturehike Mongar 2P",
-       "type":"overnight",
+       "type":"sleep_system",
        "weight":1.911
     },
     {
         "name":"Naturehike ground sheet 2P tent",
-        "type":"overnight",
+        "type":"sleep_system",
         "weight":0.235
      },
     {
         "name":"Nemo ground sheet 1P tent",
-        "type":"overnight",
+        "type":"sleep_system",
         "weight":0.177
     },
     {
        "name":"Thermarest Z-Lite Sleeping pad 1/2",
-       "type":"overnight",
+       "type":"sleep_system",
        "weight":0.1915
     },
     {
         "name":"Thermarest Z-Lite Sleeping pad 2/2",
-        "type":"comfort",
+        "type":"sleep_system",
         "weight":0.1915
      },
     {
        "name":"Sea to Summit Etherlight XT Insulated Large Sleeping pad",
-       "type":"overnight",
+       "type":"sleep_system",
        "weight":0.657
     },
     {
        "name":"Sea to Summit Thermolite Reactor Extreme",
-       "type":"overnight",
+       "type":"sleep_system",
        "weight":0.39
     },
     {
        "name":"Sea to summit Spark SpIV sleeping bag",
-       "type":"overnight_cold_weather",
+       "type":"sleep_system",
        "weight":0.921
     },
     {
        "name":"Food cup",
-       "type":"cooking",
+       "type":"cook_system",
        "weight":0.069
     },
     {
        "name":"Primus kettle",
-       "type":"cooking",
+       "type":"cook_system",
        "weight":0.275
     },
     {
        "name":"Primus stove",
-       "type":"cooking",
+       "type":"cook_system",
        "weight":0.129
     },
     {
        "name":"Sea to summit spoon",
-       "type":"cooking",
+       "type":"cook_system",
        "weight":0.011
     },
     {
        "name":"Cricket lighter",
-       "type":"cooking",
+       "type":"cook_system",
        "weight":0.013
     },
     {
        "name":"Matches",
-       "type":"cooking",
+       "type":"cook_system",
        "weight":0.007
     },
     {
-       "name":"Pouch for lighters",
-       "type":"cooking",
-       "weight":0.010
-    },
-    {
-       "name":"Nalgene water bottle 1 liter",
-       "type":"hydration",
+       "name":"Nalgene water bottle 1 liter 1/2",
+       "type":"water_system",
        "weight":0.178
     },
     {
-       "name":"Nalgene water bottle 1 liter (2)",
-       "type":"hydration",
+       "name":"Nalgene water bottle 1 liter 2/2",
+       "type":"water_system",
        "weight":0.178
     },
     {
        "name":"Petzl Tikka head lamp",
-       "type":"dark",
+       "type":"devices",
        "weight":0.085
     },
     {
        "name":"Martiini knife",
-       "type":"cooking",
+       "type":"cook_system",
        "weight":0.120
     },
     {
        "name":"Dish brush",
-       "type":"cooking",
+       "type":"cook_system",
        "weight":0.025
     },
     {
        "name":"Dishes sustance",
-       "type":"cooking",
+       "type":"cook_system",
        "weight":0.073
     },
     {
        "name":"Cumulus Quilt 250",
-       "type":"overnight",
+       "type":"sleep_system",
        "weight":0.511
     },
     {
+      "name":"Mosquito head net",
+      "type":"misc",
+      "weight":0.027
+   },
+   {
+      "name":"Mosquito spay",
+      "type":"misc",
+      "weight":0.040
+   },
+   {
+      "name":"Sea to summit waterproof bag",
+      "type":"rain_protection",
+      "weight":0.027
+   },
+   {
+      "name":"Thrupack fanny pack",
+      "type":"camera_gear",
+      "weight":0.12
+   },
+    {
        "name":"Ticket to the moon with ropes (big)",
-       "type":"comfort",
+       "type":"misc",
        "weight":0.755
     },
     {
        "name":"Ticket to the moon with ropes (small)",
-       "type":"comfort",
+       "type":"misc",
        "weight":0.355
     },
     {
        "name":"Salomon soft flask with water purifier",
-       "type":"hydration",
+       "type":"water_system",
        "weight":0.058
     },
     {
        "name":"Kuksa",
-       "type":"cooking",
+       "type":"cook_system",
        "weight":0.119
     },
     {
+      "name":"Enamel mug",
+      "type":"cook_system",
+      "weight":0.98
+   },
+    {
        "name":"First aid kit",
        "type":"safety",
-       "weight":0.165
+       "weight":0.178
     },
     {
        "name":"Pillow case",
-       "type":"overnight",
+       "type":"sleep_system",
        "weight":0.080
     },
     {
        "name":"Merino base layer",
-       "type":"overnight",
+       "type":"clothing",
        "weight":0.416
     },
     {
        "name":"Peak Performance down jacket",
-       "type":"overnight_cold_weather",
+       "type":"clothing",
        "weight":0.6
     },
     {
         "name":"Jack Wolfskin running jacket",
-        "type":"overnight",
+        "type":"clothing",
         "weight":0.3
      },
     {
        "name":"Woolly socks",
-       "type":"overnight",
+       "type":"clothing",
        "weight":0.101
     },
     {
        "name":"Mini towel",
-       "type":"swim",
+       "type":"clothing",
        "weight":0.080
     },
     {
         "name":"Big towel",
-        "type":"comfort",
+        "type":"clothing",
         "weight":0.279
      },
     {
        "name":"Swim pants",
-       "type":"swim",
+       "type":"clothing",
        "weight":0.03
     },
     {
         "name":"Laundry wire and clothespins",
-        "type":"swim",
+        "type":"misc",
         "weight":0.057
      },
     {
        "name":"Extra batteries for torch and headlamp",
-       "type":"dark",
+       "type":"devices",
        "weight":0.057
     },
     {
@@ -211,7 +231,7 @@
     },
     {
        "name":"Torch",
-       "type":"dark",
+       "type":"devices",
        "weight":0.055
     },
     {
@@ -221,32 +241,32 @@
     },
     {
        "name":"2 pairs of boxers",
-       "type":"overnight",
+       "type":"clothing",
        "weight":0.142
     },
     {
        "name":"2 pairs of camp socks",
-       "type":"overnight",
+       "type":"clothing",
        "weight":0.062
     },
     {
        "name":"Patagonia rain jacket",
-       "type":"rain",
+       "type":"rain_protection",
        "weight":0.332
     },
     {
        "name":"Sherpa T-shirt",
-       "type":"overnight",
+       "type":"clothing",
        "weight":0.181
     },
     {
        "name":"Icebreaker Merino Wool Shirt",
-       "type":"overnight_cold_weather",
+       "type":"clothing",
        "weight":0.409
     },
     {
        "name":"Toothbrush and paste",
-       "type":"overnight",
+       "type":"misc",
        "weight":0.100
     },
     {
@@ -261,42 +281,72 @@
     },
     {
        "name":"Frying spatula",
-       "type":"cooking",
+       "type":"cook_system",
        "weight":0.022
     },
     {
        "name":"Salomon rain pants",
-       "type":"rain",
+       "type":"rain_protection",
        "weight":0.171
     },
     {
        "name":"Haglöfs camp pants",
-       "type":"comfort",
+       "type":"clothing",
        "weight":0.5
     },
     {
        "name":"Camp shoes",
-       "type":"comfort",
+       "type":"clothing",
        "weight":0.4
     },
     {
+      "name":"Merino gloves",
+      "type":"clothing",
+      "weight":0.04
+   },
+   {
+      "name":"Merino beanie",
+      "type":"clothing",
+      "weight":0.12
+   },
+   {
+      "name":"Puma shorts",
+      "type":"clothing",
+      "weight":0.12
+   },
+   {
+      "name":"Lumix camera",
+      "type":"camera_gear",
+      "weight":0.444
+   },
+   {
+      "name":"Lumix Telelens",
+      "type":"camera_gear",
+      "weight":0.41
+   },
+   {
+      "name":"Lumix Kitlens",
+      "type":"camera_gear",
+      "weight":0.08
+   },
+    {
        "name":"Headphones",
-       "type":"comfort",
+       "type":"devices",
        "weight":0.013
     },
     {
        "name":"Sunglasses",
-       "type":"comfort",
+       "type":"misc",
        "weight":0.100
     },
     {
        "name":"Phone",
-       "type":"necessities",
+       "type":"misc",
        "weight":0.2
     },
     {
        "name":"Home keys",
-       "type":"necessities",
+       "type":"misc",
        "weight":0.3
     }
  ]
